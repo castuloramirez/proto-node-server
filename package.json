@@ -1,0 +1,17 @@
+{
+  "name": "proto-node-server",
+  "version": "1.0.0",
+  "description": "Node.js drop-in replacement for the Javalin protobuf backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "protobufjs": "^7.4.0"
+  }
+}
